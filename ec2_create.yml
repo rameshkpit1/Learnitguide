@@ -1,0 +1,15 @@
+---
+- hosts: localhost
+  gather_facts: no
+  vars:
+   volname: test_data
+   vol_id: vol-xxxxxxxx
+  tasks:
+  - name: Create EC2 instances
+    ec2_vol:
+     zone: us-east-1a
+     region: us-east-1
+     name: "{{ volname }}"
+     state: present
+    tags: create
+

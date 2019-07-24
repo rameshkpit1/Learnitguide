@@ -1,0 +1,15 @@
+---
+- hosts: localhost
+  vars:
+   vpc_name: us-east-1
+   my_region: 10.0.0.0/16
+   cidr_value: ebay_demo_vpc
+
+  - name: Delete VPC
+    ec2_vpc:
+     resource_tags: { "Name":"{{ vpc_name }}" }
+     region: "{{ my_region }}"
+     cidr_block: "{{ cidr_value }}"
+     state: absent
+    tags: delete
+
