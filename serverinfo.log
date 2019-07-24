@@ -1,0 +1,59 @@
+
+SYSTEM INFORMATION
+########################
+        Server Name     :       node1.ourtestdomain.com
+        Operating System:       CentOS Linux release 7.2.1511 (Core)
+        Kernel Version  :       3.10.0-514.16.1.el7.x86_64
+        Product Name    :       VMware Virtual Platform
+        Physical Memory :       483856 kB
+        Swap Memory     :       1048572 kB
+        CPU Model       :       Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
+        No of CPU's     :       1
+        No of CPU Cores:        1
+
+
+Disk detected:
+--------------------
+Disk /dev/sda: 12.9 GB
+Disk /dev/sdb: 1073 MB
+--------------------
+Server Uptime:
+--------------------
+ 22:20:03 up  3:35,  2 users,  load average: 0.00, 0.01, 0.05
+--------------------
+Users Logged in
+--------------------
+ 22:20:03 up  3:35,  2 users,  load average: 0.00, 0.01, 0.05
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/0    192.168.2.10     18:46   12:03   0.76s  0.76s -bash
+root     pts/1    192.168.2.10     19:16    3.00s  1.34s  0.00s w
+--------------------
+Disk Utilization
+--------------------
+Filesystem               Size  Used Avail Use% Mounted on
+/dev/mapper/centos-root   12G  3.3G  8.3G  29% /
+/dev/sr0                 4.1G  4.1G     0 100% /media
+/dev/sda1                497M  168M  329M  34% /boot
+--------------------
+Memory Utilization
+--------------------
+Memory - Free/total memory: 30 / 472 MB
+Swap - Free/total memory: 981 / 1023 MB
+--------------------
+Performance Utilization
+--------------------
+top - 22:20:03 up  3:35,  2 users,  load average: 0.00, 0.01, 0.05
+Tasks:  95 total,   1 running,  94 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.7 sy,  0.0 ni, 98.0 id,  0.7 wa,  0.0 hi,  0.1 si,  0.0 st
+--------------------
+Top 3 Process Info
+--------------------
+   PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+  7925 root      20   0  146028   1832   1360 R  6.2  0.4   0:00.02 top
+     1 root      20   0  125220   2920   1752 S  0.0  0.6   0:02.68 systemd
+     2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+--------------------
+List of Listening Ports
+--------------------
+8080 25 22
+--------------------
